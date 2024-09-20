@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flexbox {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.flexbox h2 {
+    margin-bottom: 10px;
+}
+
+.flexbox p {
+    margin: 5px 0;
+}
+
+#personal-info {
+    background-color: #ffebcc;
+}
+
+#contact-info {
+    background-color: #cceeff;
+}
+
+#social-info {
+    background-color: #e0ffcc;
+}
