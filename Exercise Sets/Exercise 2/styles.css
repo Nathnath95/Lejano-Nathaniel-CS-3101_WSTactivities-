@@ -1,0 +1,60 @@
+
+body {
+    font-family: "Courier New", monospace;;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    transform: translateX(-250px);
+}
+
+.flexbox {
+    background-color: white;
+    border: 2.5px solid rgb(175, 175, 175);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #e6e6e6;
+    padding: 50px;
+    width: 500px;            
+    height: 100px;          
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexbox h2 {
+    margin-bottom: 15px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 28px; 
+}
+
+.flexbox p {
+    margin: 3px;
+    font-size: 20px; 
+}
+
+#personal-info {
+    background-color: rgba(171, 35, 37, 0.75);
+}
+
+#contact-info {
+    background-color: rgba(177, 160, 153, 0.75);}
+
+#social-info {
+    background-color: rgba(197, 195, 45, 0.75);
+}
+
+#spotify-embed {
+    background-color: rgba(39, 54, 53, 0.75);
+    height: auto;          
+}
+
+
