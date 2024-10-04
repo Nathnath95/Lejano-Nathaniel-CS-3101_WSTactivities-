@@ -1,5 +1,5 @@
 body {
-    background-image: url("assets/starrynight.png");
+    background-image: url("assets/fall.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -25,7 +25,7 @@ body {
 }
 
 .flexbox_item {
-    background-color: #5c1818;
+    background-color: #5c1818c4;
     border: 2px solid #af3434c7;
     border-radius: 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -37,6 +37,7 @@ body {
 }
 
 #titlebox {
+    background-color: #1d1c0862;
     width: auto;
     height: auto;
     padding: 10px;
@@ -118,9 +119,9 @@ body {
 }
 
 .box {
-    border: 5px solid #b4912fd8; 
-    background-image: 
-        linear-gradient(to bottom, #180808, #2e0f0f, #5c1818, #660d0d);    border-radius: 20px;
+    border: 2px solid #b4912fd8; 
+    background-color: #1d1c088f;
+    border-radius: 20px;
     padding: 50px;
     margin-top: 20px; 
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
