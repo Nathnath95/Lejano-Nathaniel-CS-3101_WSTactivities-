@@ -1,0 +1,127 @@
+body {
+    background-image: url("assets/starrynight.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Courier New", monospace;
+    padding: 20px;
+}
+
+.flexbox_container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+
+.flexbox_item {
+    background-color: #5c1818;
+    border: 2px solid #af3434c7;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: #e9bb3cd8;
+    padding: 10px;
+    text-align: center;
+    width: auto; 
+    height: auto;
+}
+
+#titlebox {
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+#titlebox h1{
+    font-size:50px;
+}
+
+#row2 {
+    transform: translateX(1.5%);
+}
+
+#daily_reminder {
+    height: auto;
+    text-align: left;
+    transform: translateY(-40%);
+}
+
+#row3 {
+    transform: translateY(-10%);
+}
+
+#deans {
+    height: auto;
+    transform: translateY(-30%);
+}
+
+#row4 {
+    transform: translateY(-10%);
+}
+
+#strato {
+    transform: translateY(10%);   
+}
+
+#bucket_list{
+    height: auto;
+    transform: translateY(-20%);
+}
+
+#row5 {
+    transform: translateY(-30%);
+}
+
+#vader {
+    background-color: #471616;
+}
+
+.flexbox_item h1 {
+    text-align: center;
+}
+
+
+
+#goal, #quote {
+    height: auto;
+}
+
+.vader-image, .deanslister_image {
+    max-height: 250px;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.stratocaster-image {
+    max-height: 350px;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.stevelacy_image{
+    max-height: 330px;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.box {
+    border: 5px solid #b4912fd8; 
+    background-image: 
+        linear-gradient(to bottom, #180808, #2e0f0f, #5c1818, #660d0d);    border-radius: 20px;
+    padding: 50px;
+    margin-top: 20px; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+}
