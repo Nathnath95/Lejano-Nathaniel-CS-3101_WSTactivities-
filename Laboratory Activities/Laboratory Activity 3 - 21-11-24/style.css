@@ -1,0 +1,46 @@
+style{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    margin: 20px;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+h2 {
+    margin: 60px auto;
+    font-size: 30px;
+    text-align: center;
+    color: #7ada84;
+}
+
+#textInput {
+    display: block;
+    width: 900px;
+    height: 150px;
+    padding: 10px;
+    margin: 50px auto;
+    font-size: 16px;
+    border: 3px solid #3e9c4780;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    resize: none;
+}
+
+#wordCount, #sentenceCount {
+    font-size: 18px;
+    width: 300px;
+    height: 30px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #3e9c47;
+    border: 1px solid #ffffff80;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
